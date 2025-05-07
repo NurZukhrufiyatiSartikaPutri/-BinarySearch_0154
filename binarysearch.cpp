@@ -45,7 +45,9 @@ void bubbleSortArray()
             element[j + 1] = temp;
         }
       }
-    } while (condition);
+      pass++;
+    } while (pass <= nPanjang - 1);
+    
     
 
 }
